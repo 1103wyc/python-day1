@@ -14,5 +14,5 @@ print(f"最多；{max(steps)}步 最少：{min(steps)}步")
 
 
 for i in range(days):
-    if steps[i] >=10000:
+    if steps[i] >=8000:
         print(f"第{i+1}天 {steps[i]}步,达标")
